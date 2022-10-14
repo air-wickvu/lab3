@@ -40,7 +40,7 @@ class ListExamples {
     }
     while(index2 < list2.size()) {
       result.add(list2.get(index2));
-      //index2 += 1; 
+      //index2 += 1; // index2 never got updated therefore the while loop did not break
       index1+=1;
     }
     return result;
